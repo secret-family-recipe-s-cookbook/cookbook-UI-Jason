@@ -1,13 +1,20 @@
 main{
     max-width: 1000px;
-    background-color: @bkColor;
+
     section{
         .flex(row,space-between);
+        flex-wrap: wrap;
         .centFull();
         padding:0px 20px;
+        &:nth-child(even){
+            background-color: @bkColor3;
+        }
+
+        &:nth-child(odd){
+            background-color: white;
+        }
         div{
-            width:45%;
-            margin:0px 10px;
+            width:30%;
             img{
                 max-width: 100%
             }
