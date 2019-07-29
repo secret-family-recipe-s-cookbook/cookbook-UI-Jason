@@ -18,7 +18,7 @@ h5 {
 }
 h1 {
   font-size: 4.5rem;
-  color: #fffefa;
+  color: #c13b3b;
   font-weight: bold;
   line-height: 1.3;
 }
@@ -80,11 +80,11 @@ header {
   width: 100%;
   max-width: 1000px;
   height: 400px;
-  background: url("/img/navImg.jpeg") no-repeat;
+  background: url("/img/family.jpg") no-repeat;
   background-size: auto;
 }
 header div {
-  width: 60%;
+  width: 25%;
   margin-left: 40px;
 }
 footer {
