@@ -241,20 +241,22 @@ main .sectionTitle {
   width: 100%;
   text-align: center;
 }
-.aboutUs {
-  color: #a44b4b;
+nav {
+  position: static;
 }
 main {
   display: flex;
+  align-items: center;
   width: 100%;
-}
-main section {
-  margin-top: 50px;
+  height: 100%;
 }
 main .sidebar {
-  background: url("/img/aboutSidebar.jpg") no-repeat;
+  xbackground-color: black;
   width: 50%;
-  height: 750px;
+  min-height: 750px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 main .sidebar img {
   max-height: 100%;
@@ -262,6 +264,7 @@ main .sidebar img {
 main .aboutUs {
   width: 50%;
   padding-top: 50px;
+  color: #a44b4b;
 }
 main .aboutUs .carousel {
   background: #fef7ea;
@@ -276,5 +279,11 @@ main .aboutUs img {
 }
 main .aboutUs .carouselText {
   font-size: 1.8rem;
-  margin-top: 15px;
+  padding: 10px 30px 0px 30px;
+}
+.carousel-item a {
+  color: #a44b4b;
+  display: block;
+  font-size: 1.8rem;
+  padding: 10px 40px 0px 40px;
 }
