@@ -58,11 +58,6 @@ h5 {
   font-family: 'Roboto', sans-serif;
   color: #a44b4b;
 }
-@media (max-width:500px) {
-  h5 {
-    font-size: 1.2rem;
-  }
-}
 p {
   line-height: 1.5;
   font-size: 2rem;
@@ -261,6 +256,11 @@ main .sidebar {
 main .sidebar img {
   max-height: 100%;
 }
+@media (max-width:800px) {
+  main .sidebar {
+    display: none;
+  }
+}
 main .aboutUs {
   width: 50%;
   padding-top: 50px;
@@ -274,6 +274,16 @@ main .aboutUs .carousel {
   text-align: center;
   padding-top: 0px;
 }
+@media (max-width:800px) {
+  main .aboutUs .carousel {
+    width: 600px;
+  }
+}
+@media (max-width:500px) {
+  main .aboutUs .carousel {
+    width: 400px;
+  }
+}
 main .aboutUs .carouselTitle {
   font-size: 1.8rem;
   padding: 10px 30px 0px 30px;
@@ -283,12 +293,37 @@ main .aboutUs .carouselText {
   padding: 10px 45px 0px 45px;
   text-align: left;
 }
+@media (max-width:800px) {
+  main .aboutUs .carouselText {
+    padding: 20px 80px 0px 80px;
+  }
+}
+@media (max-width:500px) {
+  main .aboutUs .carouselText {
+    padding: 10px 45px 0px 45px;
+  }
+}
+@media (max-width:800px) {
+  main .aboutUs {
+    width: 100%;
+  }
+}
 .carousel-item a {
   color: #a44b4b;
   display: block;
   font-size: 1.8rem;
   padding: 10px 40px 0px 40px;
   text-align: left;
+}
+@media (max-width:800px) {
+  .carousel-item a {
+    padding: 20px 80px 0px 80px;
+  }
+}
+@media (max-width:500px) {
+  .carousel-item a {
+    padding: 10px 45px 0px 45px;
+  }
 }
 .carousel-item .profilePic {
   margin-top: 20px;

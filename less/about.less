@@ -17,6 +17,9 @@ main{
         img{
             max-height:100%;
         }
+        @media @tablet{
+            display: none;
+        }
      }
     .aboutUs{
         width:50%;
@@ -29,7 +32,12 @@ main{
             margin:30px auto;
             text-align:center;
             padding-top:0px;
-
+            @media @tablet{
+                width:600px;
+            }
+            @media @mobile{
+                width:400px;
+            }
         }
         img{
         }
@@ -41,6 +49,15 @@ main{
             font-size:1.8rem;
             padding:10px 45px 0px 45px;
             text-align:left;
+            @media @tablet{
+                padding:20px 80px 0px 80px;
+            }
+            @media @mobile{
+                padding:10px 45px 0px 45px;
+            }
+        }
+        @media @tablet{
+            width:100%;
         }
     }
 }
@@ -52,6 +69,12 @@ main{
         font-size:1.8rem;
         padding:10px 40px 0px 40px;
         text-align:left;
+        @media @tablet{
+            padding:20px 80px 0px 80px;
+        }
+        @media @mobile{
+            padding:10px 45px 0px 45px;
+        }
     }
     .profilePic{
         margin-top:20px;
