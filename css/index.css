@@ -6,6 +6,8 @@ html {
 }
 body {
   width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
 }
 html,
 body {
@@ -67,6 +69,7 @@ nav {
   background: #6e0000;
   position: fixed;
   width: 100%;
+  max-width: 1000px;
 }
 nav .icon {
   width: 10%;
@@ -230,4 +233,31 @@ main .sectionTitle {
 }
 .aboutUs {
   color: red;
+}
+main {
+  display: flex;
+  width: 100%;
+}
+main section {
+  margin-top: 50px;
+}
+main .sidebar {
+  background: url("/img/aboutSidebar.jpg") no-repeat;
+  width: 50%;
+  height: 750px;
+}
+main .sidebar img {
+  max-height: 100%;
+}
+main .aboutUs {
+  width: 50%;
+  padding-top: 50px;
+}
+main .aboutUs .carousel {
+  background: gray;
+  width: 400px;
+  height: 600px;
+  margin: 30px auto;
+  text-align: center;
+  padding-top: 170px;
 }
