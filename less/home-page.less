@@ -6,7 +6,7 @@ main{
         padding:0px 30px;
         div.sectionItem{
             &:nth-child(odd){
-                background-color: @bkColor2;
+                background-color: @bkColor2;               
             }
             .flex(row,space-between);
             flex-wrap: nowrap;
@@ -16,7 +16,20 @@ main{
             div{
                 width:60%;
                 padding:20px;
+                @media @mobile{
+                    width:100%;
+                    margin:0px 0px;
+                }  
             }
+            @media @mobile{
+                flex-direction:column;
+                width:100%;
+                margin:0px 0px;
+                padding:0px;
+                &:nth-child(even) div{
+                    order:2;
+                }  
+            }   
         }
     }
     .sectionTitle{
