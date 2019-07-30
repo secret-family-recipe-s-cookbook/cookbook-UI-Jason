@@ -134,11 +134,11 @@ header {
   max-width: 1000px;
   height: 400px;
   background: url("/img/family.jpg") no-repeat;
-  background-position: 0px 50px;
+  background-position: 0px 0px;
 }
 @media (max-width:800px) {
   header {
-    background-position: -130px 50px;
+    background-position: -130px 0px;
   }
 }
 @media (max-width:500px) {
@@ -210,6 +210,12 @@ main section div.sectionItem {
 }
 main section div.sectionItem:nth-child(odd) {
   background-color: #fef7ea;
+  box-shadow: 5px 10px #ddccbf;
+  border: 1px solid #ddccbf;
+}
+main section div.sectionItem:nth-child(even) {
+  box-shadow: 5px 10px #ddccbf;
+  border: 1px solid #ddccbf;
 }
 main section div.sectionItem div {
   width: 60%;
@@ -225,7 +231,7 @@ main section div.sectionItem div {
   main section div.sectionItem {
     flex-direction: column;
     width: 100%;
-    margin: 0px 0px;
+    margin: 20px 0px;
     padding: 0px;
   }
   main section div.sectionItem:nth-child(even) div {
@@ -268,6 +274,7 @@ main .aboutUs {
 }
 main .aboutUs .carousel {
   background: #fef7ea;
+  box-shadow: 10px 10px #ddccbf;
   width: 400px;
   height: 600px;
   margin: 30px auto;
