@@ -2,23 +2,26 @@ main{
     max-width: 1000px;
 
     section{
-        .flex(row,space-between);
-        flex-wrap: wrap;
         .centFull();
-        padding:0px 20px;
-        &:nth-child(odd){
-            background-color: @bkColor2;
-        }
-        div{
-            width:30%;
-            img{
-                max-width: 100%
+        padding:0px 30px;
+        div.sectionItem{
+            &:nth-child(odd){
+                background-color: @bkColor2;
+            }
+            .flex(row,space-between);
+            flex-wrap: nowrap;
+            align-items:center;
+            width:100%;
+            margin:30px 0px;
+            div{
+                width:60%;
+                padding:20px;
             }
         }
     }
     .sectionTitle{
         width:100%;
         text-align: center;
-        margin:20px 0px;
+
     }
 }
