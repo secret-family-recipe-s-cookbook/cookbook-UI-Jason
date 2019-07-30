@@ -53,6 +53,16 @@ h4 {
     font-size: 1.2rem;
   }
 }
+h5 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #a44b4b;
+}
+@media (max-width:500px) {
+  h5 {
+    font-size: 1.2rem;
+  }
+}
 p {
   line-height: 1.5;
   font-size: 2rem;
@@ -232,7 +242,7 @@ main .sectionTitle {
   text-align: center;
 }
 .aboutUs {
-  color: red;
+  color: #a44b4b;
 }
 main {
   display: flex;
@@ -254,10 +264,17 @@ main .aboutUs {
   padding-top: 50px;
 }
 main .aboutUs .carousel {
-  background: gray;
+  background: #fef7ea;
   width: 400px;
   height: 600px;
   margin: 30px auto;
   text-align: center;
-  padding-top: 170px;
+  padding-top: 0px;
+}
+main .aboutUs img {
+  margin-top: 20px;
+}
+main .aboutUs .carouselText {
+  font-size: 1.8rem;
+  margin-top: 15px;
 }
