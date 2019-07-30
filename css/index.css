@@ -274,16 +274,25 @@ main .aboutUs .carousel {
   text-align: center;
   padding-top: 0px;
 }
-main .aboutUs img {
-  margin-top: 20px;
+main .aboutUs .carouselTitle {
+  font-size: 1.8rem;
+  padding: 10px 30px 0px 30px;
 }
 main .aboutUs .carouselText {
   font-size: 1.8rem;
-  padding: 10px 30px 0px 30px;
+  padding: 10px 45px 0px 45px;
+  text-align: left;
 }
 .carousel-item a {
   color: #a44b4b;
   display: block;
   font-size: 1.8rem;
   padding: 10px 40px 0px 40px;
+  text-align: left;
+}
+.carousel-item .profilePic {
+  margin-top: 20px;
+}
+.carousel-item .socIcon {
+  height: 20px;
 }
