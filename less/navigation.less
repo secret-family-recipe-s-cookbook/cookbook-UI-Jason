@@ -27,14 +27,27 @@ nav{
         .flex(row,space-between);
         flex-wrap:nowrap;
         margin-right:25px;
-        h1{
-            margin:0px 10px;
-        }
         @media @tablet{
             width:20%;
         }
         @media @mobile{
             width:30%;
+        }
+        /* Grow */
+        .hvr-grow {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.2s;
+            -webkit-transition-property: transform;
+            transition-property: transform;
+        }
+        .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
         }
     }
     @media @mobile{
@@ -42,6 +55,8 @@ nav{
     }
 }
 
+
+  
 
 header{
     .flex(row,flex-start);

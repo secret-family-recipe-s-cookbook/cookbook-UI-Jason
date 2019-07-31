@@ -110,9 +110,7 @@ nav .rightNav {
   justify-content: space-between;
   flex-wrap: nowrap;
   margin-right: 25px;
-}
-nav .rightNav h1 {
-  margin: 0px 10px;
+  /* Grow */
 }
 @media (max-width:800px) {
   nav .rightNav {
@@ -123,6 +121,23 @@ nav .rightNav h1 {
   nav .rightNav {
     width: 30%;
   }
+}
+nav .rightNav .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+nav .rightNav .hvr-grow:hover,
+nav .rightNav .hvr-grow:focus,
+nav .rightNav .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 @media (max-width:500px) {
   nav {
@@ -236,6 +251,14 @@ main section div.sectionItem div {
     margin: 0px 0px;
   }
 }
+main section div.sectionItem div .action {
+  text-align: center;
+}
+@media (max-width:800px) {
+  main section div.sectionItem .actionDish {
+    display: none;
+  }
+}
 @media (max-width:500px) {
   main section div.sectionItem {
     flex-direction: column;
@@ -251,6 +274,9 @@ main .sectionTitle {
   width: 100%;
   text-align: center;
   text-shadow: 0 4px 4px rgba(20, 20, 20, 0.35);
+}
+main .sectionTitle a {
+  color: #a44b4b;
 }
 nav {
   position: static;

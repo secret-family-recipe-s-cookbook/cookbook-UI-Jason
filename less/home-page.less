@@ -26,7 +26,15 @@ main{
                 @media @mobile{
                     width:100%;
                     margin:0px 0px;
-                }  
+                }
+            .action{
+                text-align:center;
+            }
+            }
+            @media @tablet{
+                .actionDish{
+                    display:none;
+                }
             }
             @media @mobile{
                 flex-direction:column;
@@ -43,5 +51,8 @@ main{
         width:100%;
         text-align: center;
         text-shadow:0 4px 4px @textShadow;
+        a{
+            color:@primary2;
+        }
     }
 }
