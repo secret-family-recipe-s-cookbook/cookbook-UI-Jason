@@ -8,18 +8,18 @@ main{
             &:nth-child(odd){
                 background-color: @bkColor;
                 .boxShadow();
-                .shadowBorder();  
-                           
+                .shadowBorder();
             }
             &:nth-child(even){
                 .boxShadow();  
-                .shadowBorder();  
+                .shadowBorder();
             }
             .flex(row,space-between);
             flex-wrap: nowrap;
             align-items:center;
             width:100%;
-            margin:30px 0px;
+            margin:70px 0px;
+            padding:0px 70px;
             div{
                 width:60%;
                 padding:20px;
@@ -31,7 +31,7 @@ main{
             @media @mobile{
                 flex-direction:column;
                 width:100%;
-                margin:20px 0px;
+                margin:50px 0px;
                 padding:0px;
                 &:nth-child(even) div{
                     order:2;
