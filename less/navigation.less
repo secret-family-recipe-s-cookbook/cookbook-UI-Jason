@@ -81,11 +81,16 @@ header{
         background-color:rgba(100,100,100,.25);
         border-radius:0px 75px 75px 0px;
         padding-top:30px;
+        @media @tablet{
+            padding-top:70px;
+        }
         @media @mobile{
             width:100%;
-            margin: 180px 10px 0px 10px;
-            padding-top:20px;
+            margin: 180px 0px 0px 0px;
+            padding-top:5px;
             vertical-align: bottom;
-        }   
+            border-radius:75px 75px 0px 0px;
+            height:120px;
+        }
     }
 }

@@ -22,7 +22,6 @@ h5 {
 }
 h1 {
   font-size: 5rem;
-  color: #c13b3b;
   color: #fffefa;
   text-shadow: -1px -1px 0 #666, 1px -1px 0 #666, -1px 1px 0 #666, 1px 1px 0 #666;
   line-height: 1.3;
@@ -174,12 +173,19 @@ header div {
   border-radius: 0px 75px 75px 0px;
   padding-top: 30px;
 }
+@media (max-width:800px) {
+  header div {
+    padding-top: 70px;
+  }
+}
 @media (max-width:500px) {
   header div {
     width: 100%;
-    margin: 180px 10px 0px 10px;
-    padding-top: 20px;
+    margin: 180px 0px 0px 0px;
+    padding-top: 5px;
     vertical-align: bottom;
+    border-radius: 75px 75px 0px 0px;
+    height: 120px;
   }
 }
 footer {
@@ -304,6 +310,10 @@ main .sidebar img {
 main .aboutUs {
   width: 50%;
   color: #a44b4b;
+}
+main .aboutUs .sectionTitle {
+  color: #a44b4b;
+  font-weight: bold;
 }
 main .aboutUs .carousel {
   background: #fef7ea;

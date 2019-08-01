@@ -28,12 +28,12 @@ Our design called for a "Join" button. There is one at the top and one at the bo
 
 - Your marketing website must be hosted on a hosting platform like "Netlify" or "Github Pages".
 
-Hosted on Netlify at https://family-recipe-cookbook.netlify.com/index.html
+Hosted on Netlify at https://family-recipe-cookbook.netlify.com/index.html. Linked to Git repo to auto-update.
 
-- For this Marketing site's home page you need to have content and copy that relates to the product that your team is workinfg on.
+- For this Marketing site's home page you need to have content and copy that relates to the product that your team is working on.
 - Descriptions about the product and about the features it provides would be key.
 
-Copy and related pictures created.
+Marketing copy and related pictures added using unsplash and pexels.
 
 - For a second page, you could do an about us section that includes images of the members of your team, and links to one another's socials/Github.
 
@@ -43,7 +43,7 @@ Stretch (UI):
 
 -Student's work demonstrates that all MVP features were built and the student went above and beyond the project.
 
-Added many items outside Lambda core curriculum (see below).
+Added items outside Lambda core curriculum. Used text shadow around H1 text on homepage to pop it off the hero image. Further used opacity, and radius to make a background further improving readability. Navigation links grow in size on hover to show that they are clickable. Used box shadows to draw the eye to selling points. (also see below).
 
 -Pair programmed with the Front End Architect
 
@@ -51,11 +51,11 @@ Joined the Live Share with the FEs and watched them build and troubleshoot our a
 
 -Student's code is clean and organized, proper indentation is apparent, a library or framework was researched and used.
 
-Used Prettier and Less to keep code clean and organized. Used an animation library to animate buttons. Leveraged Bootstrap to create a carousel for the About Us.
+Used Prettier and Less to keep code clean organized and DRY. Used an animation library to animate navigation buttons. Leveraged Bootstrap to create a carousel for the About Us.
 
 -Tablet views look professional at 800px and above. Responsive units are used for font-sizing.
 
-Tablet breakpoint added. All major layout structures are percentages. All font sizes are REM.
+Tablet breakpoint added at 800px. All major layout structures are percentages. All font sizes are REM.
 
 ## Technologies Used
 
