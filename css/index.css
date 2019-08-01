@@ -9,7 +9,6 @@ html {
 }
 body {
   width: 100%;
-  max-width: 1000px;
   margin: 0px auto;
 }
 html,
@@ -34,7 +33,7 @@ h1 {
   }
 }
 h2 {
-  font-size: 3rem;
+  font-size: 3.6rem;
   color: #fffefa;
 }
 @media (max-width:800px) {
@@ -78,7 +77,6 @@ nav {
   background: #a44b4b;
   position: fixed;
   width: 100%;
-  max-width: 1000px;
 }
 nav .icon {
   width: 10%;
@@ -148,8 +146,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
   width: 100%;
+  margin: 0 auto;
   max-width: 1000px;
   height: 400px;
   background: url("/img/family.jpg") no-repeat;
@@ -216,6 +214,8 @@ footer .footNav h4 {
 }
 main {
   max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
 main section {
   width: 100%;
@@ -233,7 +233,7 @@ main section div.sectionItem {
   padding: 10px 70px;
 }
 main section div.sectionItem:nth-child(odd) {
-  background-color: #fffefa;
+  background-color: #fef7ea;
   box-shadow: 0px 4px 4px rgba(45, 44, 40, 0.25);
   border: 1px solid #fffefa;
 }
@@ -306,7 +306,7 @@ main .aboutUs {
   color: #a44b4b;
 }
 main .aboutUs .carousel {
-  background: #fffefa;
+  background: #fef7ea;
   box-shadow: 0px 4px 4px rgba(45, 44, 40, 0.25);
   border: 1px solid #fffefa;
   width: 400px;
