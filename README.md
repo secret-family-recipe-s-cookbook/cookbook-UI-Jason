@@ -12,7 +12,7 @@ Secret Family Recipes Cookbook
 # MVP (UI):
 - You will build a multi-page marketing website that matches the theme chosen by your group and provides the user with details about the product your team has selected to build.
 
-### Webpage built, Main marketing and About Us team page.
+### Webpage built, Main marketing and About Us team pages.
 
 - Your marketing website must include responsive mobile and desktop screen widths. Please see the "Responsiveness" portion of your rubric for more information on this.
 
@@ -51,7 +51,7 @@ Secret Family Recipes Cookbook
 
 -Tablet views look professional at 800px and above. Responsive units are used for font-sizing.
 
-### Tablet breakpoint added at 800px. All major layout structures are percentages. All font sizes are REM.
+### Tablet breakpoint added at 800px. All major layout structures are percentages. All font sizes are rems.
 
 ## Technologies Used
 
