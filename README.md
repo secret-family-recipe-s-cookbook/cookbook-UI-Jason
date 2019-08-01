@@ -43,11 +43,11 @@ Stretch (UI):
 
 -Student's work demonstrates that all MVP features were built and the student went above and beyond the project.
 
-Strap in honey, we goin for a ride.
+Added many items outside Lambda core curriculum (see below).
 
 -Pair programmed with the Front End Architect
 
-Join the Live Share with the FEs and watched them build and troubleshoot our app to get an idea of what React was all about.
+Joined the Live Share with the FEs and watched them build and troubleshoot our app to get an idea of what React was all about. Have also compared code with the other UI dev to help UX designer meet her goals.
 
 -Student's code is clean and organized, proper indentation is apparent, a library or framework was researched and used.
 
@@ -55,6 +55,7 @@ Used Prettier and Less to keep code clean and organized. Used an animation libra
 
 -Tablet views look professional at 800px and above. Responsive units are used for font-sizing.
 
+Tablet breakpoint added. All major layout structures are percentages. All font sizes are REM.
 
 ## Technologies Used
 
