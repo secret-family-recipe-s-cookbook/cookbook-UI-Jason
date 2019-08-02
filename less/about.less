@@ -1,0 +1,86 @@
+nav{
+    position:static;
+}
+
+main{
+    display:flex;
+    align-items:center;
+    width:100%;
+
+    .sidebar{
+        width:50%;
+        margin: 0px;
+        padding:0px;
+        @media @tablet{
+            display: none;
+        }
+     }
+    .aboutUs{
+        width:50%;
+        color:@primary2;
+        .sectionTitle{
+            color:@primary2;
+            font-weight: bold;
+        }
+        .carousel{
+            background:@bkColor2;
+            .boxShadow();
+            .shadowBorder();  
+            width: 400px;
+            height:600px;
+            margin:30px auto;
+            text-align:center;
+            padding-top:0px;
+            @media @tablet{
+                width:600px;
+            }
+            @media @mobile{
+                width:400px;
+            }
+        }
+        
+        .carouselTitle{
+            font-size:1.8rem;
+            padding:10px 30px 0px 30px;
+        }
+        .carouselText{
+            font-size:1.8rem;
+            padding:10px 45px 0px 45px;
+            text-align:left;
+            @media @tablet{
+                padding:20px 80px 0px 80px;
+            }
+            @media @mobile{
+                padding:10px 45px 0px 45px;
+            }
+        }
+        @media @tablet{
+            width:100%;
+        }
+    }
+}
+
+.carousel-item{
+    padding-top:20px;
+    a {
+        color:@primary2;
+        display:block;
+        font-size:1.8rem;
+        padding:10px 40px 0px 40px;
+        text-align:left;
+        @media @tablet{
+            padding:20px 80px 0px 80px;
+        }
+        @media @mobile{
+            padding:10px 45px 0px 45px;
+        }
+    }
+    .profilePic{
+        margin-top:20px;
+    }
+    .socIcon{
+        height:20px;
+    }
+}
+
+
